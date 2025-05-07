@@ -14,4 +14,4 @@ A retro-themed e-commerce app built with ASP.NET Core MVC, EF Core, and SQLite. 
    dotnet restore
 4. **Run Migrations (if needed)**: Update-Database
 
-5.**Run the App.**: ctrl + f5 or open terminal and run 'dotnet run'
+5.**Run the App**: ctrl + f5 or open terminal and run 'dotnet run'
