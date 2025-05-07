@@ -1,0 +1,125 @@
+﻿/* === Retro Light Theme CSS === */
+
+/* Global font and background */
+body {
+    background-color: #fefbe9; /* Light retro beige */
+    color: #333;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+/* Navbar */
+.navbar, .bg-dark {
+    background-color: #ffd166 !important; /* Warm retro yellow */
+    color: #000;
+}
+
+.navbar-brand {
+    font-weight: bold;
+    color: #000 !important;
+}
+
+.navbar a, .navbar-text {
+    color: #000 !important;
+}
+
+    .navbar a:hover {
+        color: #fff !important;
+        background-color: #f4a261;
+    }
+
+/* Headings */
+.retro-heading {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #264653;
+    text-shadow: 1px 1px #fff;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Buttons */
+.btn, .retro-btn {
+    background-color: #2a9d8f;
+    color: #fff !important;
+    border: 2px solid #2a9d8f;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 8px 14px;
+    transition: all 0.2s ease-in-out;
+}
+
+    .btn:hover, .retro-btn:hover {
+        background-color: #21867a;
+        border-color: #21867a;
+        color: #fff !important;
+    }
+
+/* Remove Button */
+.retro-btn-remove {
+    background-color: #e76f51;
+    border-color: #e76f51;
+    color: #fff !important;
+}
+
+    .retro-btn-remove:hover {
+        background-color: #d9534f;
+        border-color: #d9534f;
+    }
+
+/* Cards */
+.card {
+    border: 2px solid #ffd166;
+    background-color: #fff9db;
+    margin-bottom: 20px;
+}
+
+/* Badges */
+.badge {
+    background-color: #ef476f;
+    color: #fff;
+}
+
+/* Forms */
+.form-control {
+    border: 2px solid #ffd166;
+    background-color: #fffdf5;
+    color: #333;
+}
+
+    .form-control:focus {
+        border-color: #f4a261;
+        box-shadow: none;
+    }
+
+/* Tables */
+.retro-table {
+    width: 100%;
+    background-color: #f8f1e4;
+    color: #000;
+    border-collapse: collapse;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.retro-th, .retro-td {
+    background-color: #faedcd;
+    color: #000;
+    padding: 10px 14px;
+    border: 2px solid #264653;
+    text-align: left;
+}
+
+/* Table footer total */
+tfoot .retro-th {
+    font-weight: bold;
+    background-color: #e9c46a;
+}
+
+/* Utility */
+.text-right {
+    text-align: right;
+}
+
+.text-center {
+    text-align: center;
+}
