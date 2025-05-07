@@ -1,6 +1,6 @@
 # Sports Store Web App
 
-A retro-themed e-commerce app built with ASP.NET Core MVC, EF Core, and SQLite. Features shopping cart and checkout functionality.
+A retro-themed e-commerce app built with ASP.NET Core MVC, and EF Core. Features shopping cart and checkout functionality.
 
 ---
 
